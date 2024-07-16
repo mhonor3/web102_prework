@@ -73,3 +73,27 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+button:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+
+.stats-container {
+    display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    border: none;
+}
